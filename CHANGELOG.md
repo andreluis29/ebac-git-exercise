@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.1] - 2023-06-09
+## [0.0.1] - 2023-06-10
 
 ### Added
-  - Added file nome.txt
+  - Added files for the exerise
