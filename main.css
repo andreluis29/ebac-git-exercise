@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(63, 57, 57);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px auto;
+  align-items: center;
+}
+
+input {
+  height: 27px;
+  margin-bottom: 5px;
+}
+
+
+button {
+  padding: 16px;
+  height: 70px;
+  width: 50%;
+  border: none;
+}
+
+button:hover {
+  background-color:black;
+  color: white;
+}
+
+#sucess-message {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 90px;
+  font-size: 14px;
+  font-weight: 300;
+  margin: auto;
+  display: none;
+}
+
+#error-message {
+  color: black;
+  background-color: red;
+  width: 200px;
+  padding: 40px;
+  font-size: 14px;
+  display: none;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+input.error {
+  outline-color: red;
+  color: red;
+  border: 1px solid red;
+}
