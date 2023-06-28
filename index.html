@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./jquery-3.7.0.min.js"></script>
+  <script src="./jquery.mask.min.js"></script>
+  <style>
+    body {
+      color: white;
+      background-color: black;
+    }
+    form {
+      background-color: red;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+      padding: 20px;
+      max-width: 30%;
+    }
+    input {
+      width: 60%;
+      margin: auto;
+    }
+    button {
+      height: 30px;
+      width: 50%;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <label for="nome">Nome completo</label>
+    <input type="text" name="nome" id="nome">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <label for="telefone">Telefone</label>
+    <input type="tel" name="telefone" id="telefone">
+    <label for="cpf">CPF</label>
+    <input type="text" name="cpf" id="cpf">
+    <label for="endereço">Endereço completo</label>
+    <input type="text" name="endereço" id="endereço">
+    <label for="cep">cep</label>
+    <input type="text" name="cep" id="cep">
+    <button type="submit">Enviar</button>
+  </form>
+  <script src="./script.js"></script>
+</body>
+</html>
