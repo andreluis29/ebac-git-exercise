@@ -10,4 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1] - 2023-06-09
 
 ### Added
-  - Added file nome.txt
+
+-   Added file nome.txt
+-   Added index.html
+-   Added new form
